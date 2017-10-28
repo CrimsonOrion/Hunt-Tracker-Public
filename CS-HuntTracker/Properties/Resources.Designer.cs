@@ -73,6 +73,16 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Agrippa_The_Mighty {
+            get {
+                object obj = ResourceManager.GetObject("Agrippa_The_Mighty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Alectryon {
             get {
                 object obj = ResourceManager.GetObject("Alectryon", resourceCulture);
@@ -123,6 +133,46 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bird_of_Paradise {
+            get {
+                object obj = ResourceManager.GetObject("Bird_of_Paradise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bone_Crawler {
+            get {
+                object obj = ResourceManager.GetObject("Bone_Crawler", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bonnacon {
+            get {
+                object obj = ResourceManager.GetObject("Bonnacon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Brontes {
+            get {
+                object obj = ResourceManager.GetObject("Brontes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bune {
             get {
                 object obj = ResourceManager.GetObject("Bune", resourceCulture);
@@ -136,6 +186,16 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap Campacti {
             get {
                 object obj = ResourceManager.GetObject("Campacti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Chernobog {
+            get {
+                object obj = ResourceManager.GetObject("Chernobog", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +236,26 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap CorthasWest {
             get {
                 object obj = ResourceManager.GetObject("CorthasWest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Croakadile {
+            get {
+                object obj = ResourceManager.GetObject("Croakadile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Croque_mitaine {
+            get {
+                object obj = ResourceManager.GetObject("Croque_mitaine", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,16 +413,6 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Garlok {
-            get {
-                object obj = ResourceManager.GetObject("Garlok", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Ghede_Ti_Malice {
             get {
                 object obj = ResourceManager.GetObject("Ghede_Ti_Malice", resourceCulture);
@@ -356,6 +426,16 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap Girimekhala {
             get {
                 object obj = ResourceManager.GetObject("Girimekhala", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Girtab {
+            get {
+                object obj = ResourceManager.GetObject("Girtab", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -386,6 +466,36 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap Kurrea {
             get {
                 object obj = ResourceManager.GetObject("Kurrea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Laideronnette {
+            get {
+                object obj = ResourceManager.GetObject("Laideronnette", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lampalagua {
+            get {
+                object obj = ResourceManager.GetObject("Lampalagua", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leucrotta {
+            get {
+                object obj = ResourceManager.GetObject("Leucrotta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,6 +583,36 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Melt {
+            get {
+                object obj = ResourceManager.GetObject("Melt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mindflayer {
+            get {
+                object obj = ResourceManager.GetObject("Mindflayer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Minhocao {
+            get {
+                object obj = ResourceManager.GetObject("Minhocao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mirka {
             get {
                 object obj = ResourceManager.GetObject("Mirka", resourceCulture);
@@ -513,6 +653,16 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Nandi {
+            get {
+                object obj = ResourceManager.GetObject("Nandi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NShroud {
             get {
                 object obj = ResourceManager.GetObject("NShroud", resourceCulture);
@@ -526,6 +676,26 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap NThan {
             get {
                 object obj = ResourceManager.GetObject("NThan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nunyunuwi {
+            get {
+                object obj = ResourceManager.GetObject("Nunyunuwi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Okina {
+            get {
+                object obj = ResourceManager.GetObject("Okina", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,6 +763,16 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Safat {
+            get {
+                object obj = ResourceManager.GetObject("Safat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Salt_and_Light {
             get {
                 object obj = ResourceManager.GetObject("Salt_and_Light", resourceCulture);
@@ -616,6 +796,26 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap Senmurv {
             get {
                 object obj = ResourceManager.GetObject("Senmurv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sisiutl {
+            get {
+                object obj = ResourceManager.GetObject("Sisiutl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Slipkinx_Steeljoints {
+            get {
+                object obj = ResourceManager.GetObject("Slipkinx_Steeljoints", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,6 +873,26 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap The_Garlok {
+            get {
+                object obj = ResourceManager.GetObject("The_Garlok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Pale_Rider {
+            get {
+                object obj = ResourceManager.GetObject("The_Pale_Rider", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TheFringes {
             get {
                 object obj = ResourceManager.GetObject("TheFringes", resourceCulture);
@@ -706,6 +926,16 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap TheRubySea {
             get {
                 object obj = ResourceManager.GetObject("TheRubySea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thousand_cast_Theda {
+            get {
+                object obj = ResourceManager.GetObject("Thousand_cast_Theda", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -783,6 +1013,16 @@ namespace CS_HuntTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Wulgaru {
+            get {
+                object obj = ResourceManager.GetObject("Wulgaru", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Yanxia {
             get {
                 object obj = ResourceManager.GetObject("Yanxia", resourceCulture);
@@ -796,6 +1036,16 @@ namespace CS_HuntTracker.Properties {
         internal static System.Drawing.Bitmap Zanig_oh {
             get {
                 object obj = ResourceManager.GetObject("Zanig_oh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Zona_Seeker {
+            get {
+                object obj = ResourceManager.GetObject("Zona_Seeker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

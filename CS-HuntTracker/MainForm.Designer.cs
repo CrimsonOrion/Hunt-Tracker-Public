@@ -2000,11 +2000,11 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(495, 31);
+            this.label62.Location = new System.Drawing.Point(483, 31);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(78, 18);
+            this.label62.Size = new System.Drawing.Size(90, 18);
             this.label62.TabIndex = 97;
-            this.label62.Text = "Salt && Light:";
+            this.label62.Text = "Salt and Light:";
             this.label62.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.LoadMobForm);
             // 
             // TheLochsSRankLabel

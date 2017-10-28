@@ -24,14 +24,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://programs.crimsonorion.x10host.com/HuntTracker/</InstallUrl>
+    <InstallUrl>http://hunttracker.crimsonorion.x10host.com/</InstallUrl>
     <ProductName>Hunt Tracker</ProductName>
     <PublisherName>Crimson Orion Software</PublisherName>
     <SuiteName>Hunt Tracker</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
-    <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>9</ApplicationRevision>
-    <ApplicationVersion>0.2.0.%2a</ApplicationVersion>
+    <WebPage>index.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>0.2.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -69,7 +69,7 @@
     <ManifestKeyFile>CS-HuntTracker_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>false</GenerateManifests>
+    <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
@@ -264,23 +264,38 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FFXIVHunt.ico" />
+    <EmbeddedResource Include="Resources\The Garlok.jpg" />
+    <EmbeddedResource Include="Resources\Agrippa The Mighty.jpg" />
+    <EmbeddedResource Include="Resources\Zona Seeker.jpg" />
     <EmbeddedResource Include="Resources\Zanig%27oh.jpg" />
+    <EmbeddedResource Include="Resources\Wulgaru.jpg" />
     <EmbeddedResource Include="Resources\Vogaal Ja.jpg" />
     <EmbeddedResource Include="Resources\Vochstein.jpg" />
     <EmbeddedResource Include="Resources\Unktehi.jpg" />
     <EmbeddedResource Include="Resources\Udumbara.jpg" />
+    <EmbeddedResource Include="Resources\Thousand-cast Theda.jpg" />
+    <EmbeddedResource Include="Resources\The Pale Rider.jpg" />
     <EmbeddedResource Include="Resources\Sum.jpg" />
     <EmbeddedResource Include="Resources\Stolas.jpg" />
     <EmbeddedResource Include="Resources\Stench Blossom.jpg" />
+    <EmbeddedResource Include="Resources\Slipkinx Steeljoints.jpg" />
+    <EmbeddedResource Include="Resources\Sisiutl.jpg" />
     <EmbeddedResource Include="Resources\Senmurv.jpg" />
     <EmbeddedResource Include="Resources\Salt and Light.jpg" />
+    <EmbeddedResource Include="Resources\Safat.jpg" />
     <EmbeddedResource Include="Resources\Sabotender Bailarina.jpg" />
     <EmbeddedResource Include="Resources\Pylraster.jpg" />
     <EmbeddedResource Include="Resources\Orghana.jpg" />
     <EmbeddedResource Include="Resources\Orcus.jpg" />
     <EmbeddedResource Include="Resources\Oni Yumemi.jpg" />
+    <EmbeddedResource Include="Resources\Okina.jpg" />
+    <EmbeddedResource Include="Resources\Nunyunuwi.jpg" />
+    <EmbeddedResource Include="Resources\Nandi.jpg" />
     <EmbeddedResource Include="Resources\Nahn.jpg" />
     <EmbeddedResource Include="Resources\Mirka.jpg" />
+    <EmbeddedResource Include="Resources\Minhocao.jpg" />
+    <EmbeddedResource Include="Resources\Mindflayer.jpg" />
+    <EmbeddedResource Include="Resources\Melt.jpg" />
     <EmbeddedResource Include="Resources\Marraco.jpg" />
     <EmbeddedResource Include="Resources\Marberry.jpg" />
     <EmbeddedResource Include="Resources\Mahisha.jpg" />
@@ -288,12 +303,15 @@
     <EmbeddedResource Include="Resources\Lyuba.jpg" />
     <EmbeddedResource Include="Resources\Luminare.jpg" />
     <EmbeddedResource Include="Resources\Lord of the Wyverns.jpg" />
+    <EmbeddedResource Include="Resources\Leucrotta.jpg" />
+    <EmbeddedResource Include="Resources\Lampalagua.jpg" />
+    <EmbeddedResource Include="Resources\Laideronnette.jpg" />
     <EmbeddedResource Include="Resources\Kurrea.jpg" />
     <EmbeddedResource Include="Resources\Kaiser Behemoth.jpg" />
     <EmbeddedResource Include="Resources\Hellsclaw.jpg" />
+    <EmbeddedResource Include="Resources\Girtab.jpg" />
     <EmbeddedResource Include="Resources\Girimekhala.jpg" />
     <EmbeddedResource Include="Resources\Ghede Ti Malice.jpg" />
-    <EmbeddedResource Include="Resources\Garlok.jpg" />
     <EmbeddedResource Include="Resources\Gandarewa.jpg" />
     <EmbeddedResource Include="Resources\Gamma.jpg" />
     <EmbeddedResource Include="Resources\Gajasura.jpg" />
@@ -302,9 +320,16 @@
     <EmbeddedResource Include="Resources\Erle.jpg" />
     <EmbeddedResource Include="Resources\Enkelados.jpg" />
     <EmbeddedResource Include="Resources\Dalvag%27s Final Flame.jpg" />
+    <EmbeddedResource Include="Resources\Croque-mitaine.jpg" />
+    <EmbeddedResource Include="Resources\Croakadile.jpg" />
     <EmbeddedResource Include="Resources\Cornu.jpg" />
+    <EmbeddedResource Include="Resources\Chernobog.jpg" />
     <EmbeddedResource Include="Resources\Campacti.jpg" />
     <EmbeddedResource Include="Resources\Bune.jpg" />
+    <EmbeddedResource Include="Resources\Brontes.jpg" />
+    <EmbeddedResource Include="Resources\Bonnacon.jpg" />
+    <EmbeddedResource Include="Resources\Bone Crawler.jpg" />
+    <EmbeddedResource Include="Resources\Bird of Paradise.jpg" />
     <EmbeddedResource Include="Resources\Aqrabuamelu.jpg" />
     <EmbeddedResource Include="Resources\Angada.jpg" />
     <EmbeddedResource Include="Resources\Alectryon.jpg" />
