@@ -14,58 +14,60 @@ namespace CS_HuntTracker
         public static bool TestConnection()
         {
             bool result = false;
-
-            try
+            using (MySqlConnection dbConnection = new MySqlConnection(ConnectionString))
             {
-                MySqlConnection dbConnection = new MySqlConnection(ConnectionString);
-                dbConnection.Open();
-                if (dbConnection.State == ConnectionState.Open)
+                try
                 {
-                    result = true;
-                    dbConnection.Close();
+                    dbConnection.Open();
+                    if (dbConnection.State == ConnectionState.Open)
+                    {
+                        result = true;
+                        dbConnection.Close();
+                    }
                 }
-
-                return result;
+                catch (Exception e)
+                {
+                    ErrorMessages.LogError(e, MethodBase.GetCurrentMethod().Name);
+                }
             }
-            catch (Exception e)
-            {
-                ErrorMessages.LogError(e, MethodBase.GetCurrentMethod().Name);
-                return result;
-            }
+            return result;
         }
         
         public static void GetZoneInfo()
         {
             Zone.GetZones = new List<Zone>();
             string queryString = "SELECT tablename, name, region FROM `Zones`;";
-
-            try
+            using (MySqlConnection dbConnection = new MySqlConnection(ConnectionString))
             {
-                MySqlConnection dbConnection = new MySqlConnection(ConnectionString);
-                // Open the database to work with it
-                dbConnection.Open();
-
-                // Prepare the query to run with dbCommand
-                using (MySqlCommand dbCommand = new MySqlCommand(queryString, dbConnection))
+                try
                 {
-                    // Execute the query
-                    using (MySqlDataReader queryReader = dbCommand.ExecuteReader())
+                    // Open the database to work with it
+                    dbConnection.Open();
+
+                    // Prepare the query to run with dbCommand
+                    using (MySqlCommand dbCommand = new MySqlCommand(queryString, dbConnection))
                     {
-                        // while the results are still being read...
-                        while (queryReader.Read())
+                        // Execute the query
+                        using (MySqlDataReader queryReader = dbCommand.ExecuteReader())
                         {
-                            // Get the new coordinates to put on the map
-                            Zone.GetZones.Add(new Zone(queryReader.GetString(0), queryReader.GetString(1), queryReader.GetString(2)));
+                            // while the results are still being read...
+                            while (queryReader.Read())
+                            {
+                                // Get the new coordinates to put on the map
+                                Zone.GetZones.Add(new Zone(queryReader.GetString(0), queryReader.GetString(1), queryReader.GetString(2)));
+                            }
                         }
                     }
                 }
-
-                dbConnection.Close();
+                catch (Exception e)
+                {
+                    ErrorMessages.LogError(e, MethodBase.GetCurrentMethod().Name);
+                }
+                finally
+                {
+                    dbConnection.Close();
+                }
             }
-            catch (Exception e)
-            {                
-                ErrorMessages.LogError(e, MethodBase.GetCurrentMethod().Name);
-            }            
         }
 
         public static List<SpawnPoint> GetSpawnPoints(HuntMapForm zone, string type)
@@ -260,7 +262,7 @@ namespace CS_HuntTracker
                         while (queryReader.Read())
                         {
                             // Get the Mob's spawn info
-                            mSI.Add(new MobSpawnInfo(queryReader.GetInt32(0), queryReader.GetString(1), queryReader.GetString(2), queryReader.GetString(3), (TimeSpan)queryReader.GetValue(4), (TimeSpan)queryReader.GetValue(5), (TimeSpan)queryReader.GetValue(6), (TimeSpan)queryReader.GetValue(7), ConvertTimeZone.ToLocalTime(queryReader.GetDateTime(8)), queryReader.GetBoolean(9)));
+                            mSI.Add(new MobSpawnInfo(queryReader.GetInt32(0), queryReader.GetString(1), queryReader.GetString(2), queryReader.GetString(3), (TimeSpan)queryReader.GetValue(4), (TimeSpan)queryReader.GetValue(5), (TimeSpan)queryReader.GetValue(6), (TimeSpan)queryReader.GetValue(7), ConvertTimeZone.ToLocalTime(queryReader.GetDateTime(8)), ConvertTimeZone.ToLocalTime(queryReader.GetDateTime(9)), queryReader.GetBoolean(10), queryReader.GetString(11)));
                         }
                     }
                 }

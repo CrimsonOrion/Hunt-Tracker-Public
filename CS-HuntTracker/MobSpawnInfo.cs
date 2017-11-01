@@ -14,11 +14,13 @@ namespace CS_HuntTracker
         public TimeSpan MaintMin { get; set; }
         public TimeSpan MaintMax { get; set; }
         public DateTime LastSeen { get; set; }
+        public DateTime LastSeenPrev { get; set; }
         public bool SeenAlive { get; set; }
+        public string SpawnCondition { get; set; }
 
         public static List<MobSpawnInfo> GetMobSpawnInfo;
 
-        public MobSpawnInfo(int id, string mob, string rank, string zone, TimeSpan respawnMin, TimeSpan respawnMax, TimeSpan maintMin, TimeSpan maintMax, DateTime lastSeen, bool seenAlive)
+        public MobSpawnInfo(int id, string mob, string rank, string zone, TimeSpan respawnMin, TimeSpan respawnMax, TimeSpan maintMin, TimeSpan maintMax, DateTime lastSeen, DateTime lastSeenPrev, bool seenAlive, string spawnCondition)
         {
             ID = id;
             Mob = mob;
@@ -29,7 +31,9 @@ namespace CS_HuntTracker
             MaintMin = maintMin;
             MaintMax = maintMax;
             LastSeen = lastSeen;
+            LastSeenPrev = lastSeenPrev;
             SeenAlive = seenAlive;
+            SpawnCondition = spawnCondition;
         }
     }
 }
